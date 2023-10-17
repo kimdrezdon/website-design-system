@@ -1,8 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Helvetica, Arial, sans-serif;
     text-align: center;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 h1 {
@@ -58,4 +61,43 @@ h1 {
 
 .color-panel h4 {
     padding: 10px;
+}
+
+.font-guide {
+    border: 1px solid black;
+    margin: 0 20px;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 40%;
+    padding-bottom: 20px;
+}
+
+.dm-sans p {
+    font-family: 'DM Sans', sans-serif;
+    padding: 5px;
+}
+
+.noto-serif p {
+    font-family: 'Noto Serif', serif;
+    padding: 5px;
+}
+
+.font-name {
+    text-decoration: underline;
+    font-size: 1.3em;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.italic {
+    font-weight: 400;
+    font-style: italic;
 }
