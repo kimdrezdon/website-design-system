@@ -101,3 +101,35 @@ h1 {
     font-weight: 400;
     font-style: italic;
 }
+
+.style-guide {
+    border: 1px solid black;
+    margin: 0 20px;
+}
+
+.style-panel {
+    display: inline-block;
+    width: 30%;
+    padding-bottom: 20px;
+}
+
+.h1-style h1 {
+    font-family: 'Noto Serif', serif;
+    font-size: 40px;
+}
+
+.h2-style h2 {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.p-style p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+li {
+    list-style-type: none;
+}
